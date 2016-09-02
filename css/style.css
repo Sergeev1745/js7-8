@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.tabs {
+	margin: 20px;
+	border: 1px solid gray;
+	width: 500px;
+	
+}
+.tabs li {
+	list-style: none;	
+	display: inline-block;
+	
+	margin-right: 5px;
+}
+.tabs a {
+	text-decoration: none;
+	border: 1px solid gray;
+	border-radius: 5px 5px 0  0;
+	border-bottom: 0;
+	color:black;
+	background-color: #ddd;
+	padding: 10px;
+	display: block;
+}
+.tabs .active {
+	background: blue;
+	color: #fff;
+}
+.textwrapper {
+	border: 1px solid gray;
+	height: 200px;
+	overflow:auto;
+}
+.help {
+	float: left;
+	border:1px solid blue;
+}
+.row{
+	position: relative;
+
+}
+form p{
+	display: inline-block;
+	border: 1px solid #eee;
+}
+form input{
+	margin-left: 70px; 
+}
+form label{
+	position: absolute;
+	left: 0;
+}
+form{
+	margin-left: 20px;
+}
